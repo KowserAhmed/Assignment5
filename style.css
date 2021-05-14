@@ -1,0 +1,91 @@
+body{
+    width:900px;
+    margin: 0 auto;
+    background-color: rgb(122, 212, 178);
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 219, 157);;
+}
+.nav_bar img {
+    width:250px;
+    padding: 10px;
+}
+.list_item {
+    display: flex;
+    padding: 10px;
+}
+.list_item li{
+    margin: 0 20px;
+    list-style: none;
+}
+.search_bar{
+    text-align: center;
+    margin: 100px 0;
+}
+.search_bar input{
+    font-size: 25px;
+    width: 480px;
+    border: none;
+   border-radius: 7px 0 0 7px;
+   padding: 5px;
+   padding-left: 15px;
+}
+.search_bar button{
+    font-size: 25px;
+    margin: -5px;
+    padding: 5px;
+    border: none;
+    border-radius: 0 7px  7px 0;
+    background-color: rgb(79, 30, 170);
+}
+.search_bar button:hover{
+    background-color: rgb(105, 46, 214);;
+}
+#invalid_input{
+    text-align: center;
+    margin:30px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 15px;
+    justify-content: space-between;
+}
+.item_area{
+    border-radius: 15px;
+    text-align: center;
+    width:180px;
+    background-color: white;
+    overflow: hidden;
+}
+.foodImg{
+    width:180px;
+}
+.item_area h4{
+    margin: 4px;
+}
+.food_id{
+    display: none;
+}
+ 
+#display_ingredient{
+    margin-top: 50px;
+
+}
+#display_ingredient p{
+width: 350px;
+margin:6px 0;
+
+padding: 5px;
+padding-left: 15px;
+background-color: rgb(131, 101, 64);
+color: white;
+border-radius: 7px;
+} 
+#display_ingredient img{
+    width:500px;
+    height: 300px;
+    border-radius: 7px;
+}

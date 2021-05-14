@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav class="nav_bar">
+       <img src="images/logo.png" alt="">
+            <ul  class="list_item">
+                <li>Home</li>
+                <li>About</li>
+                <li>Recipes</li>
+                <li>Blog</li>
+            </ul>
+
+    </nav>
+    <!-- search bar -->
+    <div class="search_bar">
+        <input id="search_meal" type="text" placeholder="Enter Food Type">
+        <span><button type="submit" onclick="mainContent()">Search</button></span>
+    </div>
+
+    <!-- invalid input -->
+   <h2 id="invalid_input"></h2>
+
+   <!-- All food item -->
+    <div id="container"></div>
+
+    <!--All ingredient-->
+    <div id="display_ingredient"></div>
+
+    <!-- js file -->
+    <script src="api.js"></script>
+    
+</body>
+
+</html>
